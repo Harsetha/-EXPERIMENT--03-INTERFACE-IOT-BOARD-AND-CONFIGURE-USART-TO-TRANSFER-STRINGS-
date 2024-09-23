@@ -48,6 +48,7 @@ configure in the usart 2 as asynchronous mode and set the baud rate as 115200 as
  #elif defined(__GNUC__)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch) #endif
 ```
+```
  while (1)   {
  /* USER CODE END WHILE */
   printf("your roll no and dept ");
